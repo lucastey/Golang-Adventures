@@ -3,5 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello World")
+	var card string = "Ace of Spades"
+	fmt.Println(card)
 }
