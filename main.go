@@ -7,7 +7,7 @@ func main() {
 	//card := newCard()
 	//fmt.Println(card)
 
-	cards := []string{"Ace of Diamonds", newCard()}
+	cards := deck{"Ace of Diamonds", newCard()}
 	cards = append(cards, "Six of Spades")
 
 	// i = index of element , card = value of element
