@@ -5,8 +5,10 @@ func main() {
 	//card := newCard()
 	//fmt.Println(card)
 
-	cards := deck{"Ace of Diamonds", newCard()}
-	cards = append(cards, "Six of Spades")
+	//cards := deck{"Ace of Diamonds", newCard()}
+	//cards = append(cards, "Six of Spades")
+
+	cards := newDeck()
 
 	cards.print()
 }
