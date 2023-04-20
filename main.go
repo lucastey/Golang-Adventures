@@ -18,6 +18,7 @@ func main() {
 	//type conversion from deck to string
 	cards := newDeck()
 	//fmt.Println(cards.toString())
+	cards.shuffle()
 	cards.saveToFile("my_cards")
 	newDeckFromFile("my_cards").print()
 }
